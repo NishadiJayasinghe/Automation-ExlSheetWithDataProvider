@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40671" started-at="2019-07-01T09:50:12Z" finished-at="2019-07-01T09:50:53Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40671" started-at="2019-07-01T09:50:12Z" finished-at="2019-07-01T09:50:53Z">
+      <class name="test_Cases.LoginPage_TestCase">
+        <test-method status="PASS" signature="TestProcedure(java.lang.String, java.lang.String)[pri:0, instance:test_Cases.LoginPage_TestCase@3cb5cdba]" name="TestProcedure" duration-ms="22190" started-at="2019-07-01T15:20:13Z" description="login with correct credentials" data-provider="guru99LoginDataProvider" finished-at="2019-07-01T15:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr202739]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mEpEvAv]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestProcedure -->
+        <test-method status="PASS" signature="TestProcedure(java.lang.String, java.lang.String)[pri:0, instance:test_Cases.LoginPage_TestCase@3cb5cdba]" name="TestProcedure" duration-ms="17845" started-at="2019-07-01T15:20:35Z" description="login with correct credentials" data-provider="guru99LoginDataProvider" finished-at="2019-07-01T15:20:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestProcedure -->
+      </class> <!-- test_Cases.LoginPage_TestCase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
