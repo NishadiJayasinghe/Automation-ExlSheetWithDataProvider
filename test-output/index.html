@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -107,6 +107,16 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_Cases.LoginPage_TestCase" hash-for-method="TestProcedure(mngr202739, mEpEvAv)">TestProcedure(mngr202739, mEpEvAv)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_Cases.LoginPage_TestCase" hash-for-method="TestProcedure(mngr202739, invalid)">TestProcedure(mngr202739, invalid)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="test_Cases.LoginPage_TestCase" hash-for-method="TestProcedure(invalid, mEpEvAv)">TestProcedure(invalid, mEpEvAv)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -143,6 +153,26 @@
                   </a> <!-- TestProcedure(mngr202739, mEpEvAv) -->
                   <span class="method-name">TestProcedure</span>
                   <span class="parameters">(mngr202739, mEpEvAv)</span>
+                  <em>
+(login with correct credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestProcedure(mngr202739, invalid)">
+                  </a> <!-- TestProcedure(mngr202739, invalid) -->
+                  <span class="method-name">TestProcedure</span>
+                  <span class="parameters">(mngr202739, invalid)</span>
+                  <em>
+(login with correct credentials)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestProcedure(invalid, mEpEvAv)">
+                  </a> <!-- TestProcedure(invalid, mEpEvAv) -->
+                  <span class="method-name">TestProcedure</span>
+                  <span class="parameters">(invalid, mEpEvAv)</span>
                   <em>
 (login with correct credentials)                  </em>
                 </div> <!-- method-content -->
@@ -201,20 +231,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'TestProcedure')
 data.setCell(0, 2, 'test_Cases.LoginPage_TestCase')
-data.setCell(0, 3, 22190);
+data.setCell(0, 3, 15159);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'TestProcedure')
 data.setCell(1, 2, 'test_Cases.LoginPage_TestCase')
-data.setCell(1, 3, 17845);
+data.setCell(1, 3, 14383);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestProcedure')
+data.setCell(2, 2, 'test_Cases.LoginPage_TestCase')
+data.setCell(2, 3, 13069);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestProcedure')
+data.setCell(3, 2, 'test_Cases.LoginPage_TestCase')
+data.setCell(3, 3, 12981);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 40 seconds</span>
+              <span class="suite-total-time">Total running time: 55 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -247,7 +285,15 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">TestProcedure(Invalid, Invalid)</span>
-                <span class="method-start">22192 ms</span>
+                <span class="method-start">15160 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestProcedure(invalid, mEpEvAv)</span>
+                <span class="method-start">28143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TestProcedure(mngr202739, invalid)</span>
+                <span class="method-start">42526 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
